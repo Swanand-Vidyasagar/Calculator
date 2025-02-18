@@ -12,10 +12,11 @@ public class Calculator implements ActionListener {
     JButton[] functionButtons = new JButton[8];
     JButton addButton, subButton, mulButton, divButton;
     JButton decButton, equButton, delButton, clrButton;
+
     JPanel panel;
 
     Font myFont = new Font("Ink Free", Font.BOLD,30);
-    
+
     Calculator(){
 
     }
